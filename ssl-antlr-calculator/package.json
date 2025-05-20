@@ -1,0 +1,22 @@
+{
+  "name": "antlr-calculator-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "build": "bash generate.sh",
+    "run": "node run js",
+    "tokens": "node lexer-table.js",
+    "interpret": "node interpreter.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

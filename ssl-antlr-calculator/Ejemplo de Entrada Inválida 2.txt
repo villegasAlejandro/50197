@@ -1,0 +1,5 @@
+usario Roberto {
+    edad = 60;
+    activo = no;
+    nombre = "Roberto";
+}

@@ -1,0 +1,17 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+T__4=5
+NUMERO=6
+CADENA=7
+BOOLEANO=8
+IDENTIFICADOR=9
+CARACTER=10
+WS=11
+ERROR=12
+'usuario'=1
+'{'=2
+'}'=3
+'='=4
+';'=5

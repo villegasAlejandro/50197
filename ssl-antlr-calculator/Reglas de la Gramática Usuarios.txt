@@ -1,0 +1,11 @@
+<programa> ::= { <usuario> } ;
+<usuario> ::="usuario"<identificador> "{" {<atributo>} "}";
+<atributo> ::=<identificador>"="<valor>";" ;
+<valor> ::= <número> | <cadena> | <booleano> ;
+<número> ::= <dígito> {<dígito>} ;
+<cadena> ::= """ {<caracter>} "" ;
+<identificador> ::= "verdadero" | "falso" ;
+<caracter> ::= <letra> {<letra> | <dígito> } ;
+<letra> ::= "a" | "b" | ... | "z" | "A" | "B"| ... | "Z" ;
+<dígito> ::= "0" | "1" | "2" | "3" | "4"  | "5" | "6" | "7" | "8"  | "9" | ;
+<símbolo> ::= "." | "," | "!" | "?" | ":"  | ";" | "" ;

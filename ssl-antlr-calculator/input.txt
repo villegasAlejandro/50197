@@ -1,0 +1,5 @@
+usuario Roberto {
+    ead = 60;
+    activo = falso;
+    nombre = "Roberto";
+}
